@@ -9,15 +9,19 @@ Gestion des produits : Ajouter, modifier et lister les produits disponibles avec
 Commandes : Créer des commandes pour les clients, visualiser les détails des commandes, y compris les produits commandés, leur quantité et leur prix total.
 Ce projet utilise Laravel pour la gestion des routes et des modèles, et utilise une base de données pour stocker toutes les informations liées aux clients, cartes, produits et commandes.
 
-Technologies utilisées :
+--Technologies utilisées :
 Laravel (PHP)
-Installation :
+
+--Installation :
 Clonez le projet :
-git clone https://github.com/votre-utilisateur/nom-du-projet.git
+    git clone https://github.com/votre-utilisateur/nom-du-projet.git
+    
 Installez les dépendances avec Composer :
-composer install
+    composer install
+    
 Configurez votre fichier .env avec les informations de connexion à la base de données.
+
 Exécutez les migrations pour créer les tables nécessaires :
-php artisan migrate
+    php artisan migrate
 Lancez le serveur de développement :
-php artisan serve
+    php artisan serve
